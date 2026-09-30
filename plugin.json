@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "prompt-compiler-gpt",
+  "version": "2.34.1",
+  "description": "Agent Project Compiler (APC): compile ideas, interviews, files, references, and research into durable provider-neutral project authorities using a single always-active kernel and progressive JIT routing.",
+  "author": {
+    "name": "Prompt Compiler Project"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Agent Project Compiler",
+        "shortDescription": "Compile durable project specs",
+        "longDescription": "Compile product intent and evidence into durable, provider-neutral project authorities. Uses one canonical always-active compiler kernel, progressive JIT routing, context-freshness recovery, Fresh-Agent Reconstruction, and optional companion Core-First governance when installed.",
+        "developerName": "Prompt Compiler Project",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Compile this project idea into a durable implementation-ready package.",
+          "Audit this project package for missing product, realization, or verification truth.",
+          "Continue this compiled project from its current authorities and evidence."
+        ]
+      }
+    }
+  }
+}
